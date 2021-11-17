@@ -1,1 +1,59 @@
+.Logo-simplon{
+    width: 150px;
+    height: 50px;
+}
+.titre{
+    color:#CE0033 ;
+    text-align: center;
+    font-weight: bolder;
+}
+.sous-titre{
+    color:#CE0033 ;
+
+}
+.fabrique{
+    border-bottom: #CE0033 solid 10px;
+}
+.text-fabrique{
+    color: white;
+    font-weight:bold ;
+}
+.carte-ouverture-fabrique{
+    background-color:#CE0033 ;
+    border-bottom-right-radius: 50px;
+    border-bottom: 30px #f58ea8 solid;
+    box-shadow:0 30px #f1adbe ;
+    box-sizing: content-box;
+    z-index:40;
+    text-align: end ;
+    font-size:50px;
+}
+.petite-histoire {
+    margin-left: 20%;
+    margin-top: 5%;
+    position: relative;
+    border-radius: 20px;
+    border: solid 0.01px rgb(223, 185, 185);
+    height: 100%;
+    background-color: red;
+  }
+  .petite-histoire:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 95%;
+    border-radius: 20px;
+    top: -8px;
+    left: -22px;
+    background-color: #CE0033; 
+    border: #CE0033 0.1px solid;
+    box-shadow: -10px 3px 0px 10px #CE0033;
+    -webkit-transform: rotate(5deg);
+    -moz-transform: rotate(5deg);
+    -o-transform: rotate(5deg);
+    -ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+  }
 
