@@ -95,3 +95,13 @@
     height: 0px;
     margin-top: 350px;
 }
+.barre-nos-chiffre{
+    background-image: url(img/unknown23.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pourcentage-chiffre{
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+}
