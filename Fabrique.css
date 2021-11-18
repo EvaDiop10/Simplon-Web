@@ -55,5 +55,43 @@
     -o-transform: rotate(5deg);
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
-  }
+}
 
+.pilier-pedagogie{
+    border-bottom: #CE0033 solid 10px;
+    width: 40%;
+}
+.number{
+    color: #CE0033;
+    font-size:50px;
+}
+.image-pedagogie{
+    border-radius: 20px;
+    height: 710px;
+    width: 400px;
+    z-index: 2;
+}
+.numero-de-valeur{
+    font-size: 30px;
+    color: #CE0033;
+    font-weight: bold;
+    text-align: center;
+}
+.cadre-numero{
+    border-radius: 50%;
+    background-color: #f1adbe;
+    width: 70px;
+    height:70px ;
+    text-align: center;
+}
+.carte-valeur{
+    border: #CE0033 solid 1px;
+}
+.triangle{
+    border-top:solid  transparent 20px;
+    border-bottom:solid transparent 20px;
+    border-right:50px #CE0033 solid;
+    width:0px;
+    height: 0px;
+    margin-top: 350px;
+}
