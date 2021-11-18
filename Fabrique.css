@@ -36,8 +36,8 @@
     border: solid 0.01px rgb(223, 185, 185);
     height: 100%;
     background-color: red;
-  }
-  .petite-histoire:before {
+}
+.petite-histoire:before {
     z-index: -1;
     position: absolute;
     content: "";
@@ -56,7 +56,13 @@
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
 }
-
+@media screen and (max-width:950px) {
+    .petite-histoire:before{
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+} 
 .pilier-pedagogie{
     border-bottom: #CE0033 solid 10px;
     width: 40%;
@@ -67,8 +73,6 @@
 }
 .image-pedagogie{
     border-radius: 20px;
-    height: 710px;
-    width: 400px;
     z-index: 2;
 }
 .numero-de-valeur{
@@ -84,9 +88,35 @@
     height:70px ;
     text-align: center;
 }
-.carte-valeur{
+.carte-valeur-selectionné{
     border: #CE0033 solid 1px;
 }
+@media screen and (max-width:950px) {
+    .numero-de-valeur{
+        font-size: 30px;
+        color: #CE0033;
+        font-weight: bold;
+        text-align: center;
+    }
+    .cadre-numero{
+        border-radius: 50%;
+        background-color: #f1adbe;
+        width: 70px;
+        height:70px ;
+        text-align: center;
+    }
+    .carte-valeur-selectionné{
+        border: #CE0033 solid 1px;
+    }
+    .triangle{
+        border-top:solid  transparent 20px;
+        border-bottom:solid transparent 20px;
+        border-right:50px #CE0033 solid;
+        width:0px;
+        height: 0px;
+        margin-top: 350px;
+    }
+} 
 .triangle{
     border-top:solid  transparent 20px;
     border-bottom:solid transparent 20px;
@@ -110,4 +140,26 @@
 }
 .carte-equipe{
     width: 320px;
+}
+.offre-en-cours{
+    background: rgb(240, 222, 222);
+    border-radius: 20px;
+}
+.ligne-offre{
+    color: #CE0033;
+}
+.resume-poste{
+    color: #CE0033;
+}
+.information-poste{
+    border-radius: 20px;
+}
+.message-rejoindre{
+    height:150px;
+}
+.champ-formulaire{
+    color: gray;
+}
+.joindre-fichier{
+    color: #CE0033;
 }
