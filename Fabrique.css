@@ -1,3 +1,12 @@
+body{
+    overflow-x:hidden;
+}
+@media screen and (max-width:950px) {
+    body{
+        overflow-x:hidden;
+    }
+    
+} 
 .Logo-simplon{
     width: 150px;
     height: 50px;
@@ -162,4 +171,25 @@
 }
 .joindre-fichier{
     color: #CE0033;
+}
+.footer{
+    background-image: url(img/unknown11.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.copyright{
+    background: #CE0033;
+}
+.reference-footer{
+    color: white;
+}
+.joindre-footer{
+    border: solid 0px;
+    color: white;
+}
+.contact{
+    font-size: 18px;
+}
+.label-footer{
+    width: 300px;
 }
