@@ -1,12 +1,10 @@
+
+
 body{
     overflow-x:hidden;
 }
-@media screen and (max-width:950px) {
-    body{
-        overflow-x:hidden;
-    }
-    
-} 
+
+/* header */
 .Logo-simplon{
     width: 150px;
     height: 50px;
@@ -20,9 +18,24 @@ body{
     color:#CE0033 ;
 
 }
+.bouton-contact{
+    font-weight: bold;
+}
 .fabrique{
     border-bottom: #CE0033 solid 10px;
 }
+@media screen {
+    .fabrique{
+    border-bottom: #CE0033 solid 10px;
+    text-align: center;
+    }
+    .menu{
+        align-content: center;
+    }
+}
+
+/* histoire de la fabrique */
+
 .text-fabrique{
     color: white;
     font-weight:bold ;
@@ -32,7 +45,6 @@ body{
     border-bottom-right-radius: 50px;
     border-bottom: 30px #f58ea8 solid;
     box-shadow:0 30px #f1adbe ;
-    box-sizing: content-box;
     z-index:40;
     text-align: end ;
     font-size:50px;
@@ -45,6 +57,8 @@ body{
     border: solid 0.01px rgb(223, 185, 185);
     height: 100%;
     background-color: red;
+    width:50%;
+
 }
 .petite-histoire:before {
     z-index: -1;
@@ -65,13 +79,67 @@ body{
     -ms-transform: rotate(5deg);
     transform: rotate(5deg);
 }
+.guillemets-rouge{
+text-align: right;
+}
+.texte-petite-histoire{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 @media screen and (max-width:950px) {
+    .menu-deroulant{
+        color: #CE0033;
+    }
     .petite-histoire:before{
         display: none;
         text-align: center;
-        width: 100%;
+        width: 50%;
+
     }
-} 
+    .fabrique{
+        border-bottom: #CE0033 solid 30px;
+    }
+    .text-fabrique{
+        color: white;
+        font-weight:bold ;
+        font-size: large;
+        text-align: center;
+    }
+    .carte-ouverture-fabrique{
+        width: 375px;
+        height:115px;
+        background-color:#CE0033 ;
+        border-bottom-right-radius: 140px;
+        border-bottom: 10px #f58ea8 solid;
+        box-shadow:0 10px  #f1adbe ;
+        box-sizing: content-box;
+        z-index:40;
+        text-align: end ;
+        font-size:50px;
+    }
+    .petite-histoire {
+        margin-top: 5%;
+        border-radius: 20px;
+        border: solid 0.01px rgb(223, 185, 185);
+        height:354px;
+        background-color: red;
+        width:75%;
+        
+    }
+    .texte-petite-histoire{
+        width:307px;
+        height:264;
+    }
+    .titre-ouverture-fabrique{
+        font-size: large;
+        text-align: center;
+    }
+}
+/* pedagogie */
+.carte-pilier{
+    border-left:solid #CE0033 10px;
+}
 .pilier-pedagogie{
     border-bottom: #CE0033 solid 10px;
     width: 40%;
@@ -83,6 +151,21 @@ body{
 .image-pedagogie{
     border-radius: 20px;
     z-index: 2;
+    border-image-width: auto;
+    box-shadow: 12px -12px 0px 0 #CE0033;
+}
+@media screen {
+    .pilier-pedagogie{
+        border-bottom: #CE0033 solid 10px;
+        width: 40%;
+    }
+}
+/* nos valeur */
+.barre-valeur{
+    height: 25%;
+}
+.carte-valeur{
+    max-width: 75%;
 }
 .numero-de-valeur{
     font-size: 30px;
@@ -96,6 +179,7 @@ body{
     width: 70px;
     height:70px ;
     text-align: center;
+    max-width:50%;
 }
 .carte-valeur-selectionné{
     border: #CE0033 solid 1px;
@@ -134,6 +218,7 @@ body{
     height: 0px;
     margin-top: 350px;
 }
+/* nos chiffre */
 .barre-nos-chiffre{
     background-image: url(img/unknown23.png);
     background-repeat: no-repeat;
@@ -143,6 +228,10 @@ body{
     font-weight: bold;
     font-size: 50px;
     text-align: center;
+}
+/* recrutement */
+.formulaire{
+    width: 50%;
 }
 .poste-equipe{
     color: #CE0033;
@@ -172,6 +261,7 @@ body{
 .joindre-fichier{
     color: #CE0033;
 }
+/* footer */
 .footer{
     background-image: url(img/unknown11.png);
     background-repeat: no-repeat;
@@ -193,6 +283,26 @@ body{
 .label-footer{
     width: 300px;
 }
-.bouton-contact{
-    font-weight: bold;
+@media screen {
+    .footer{
+        background-image: url(img/unknown11.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .copyright{
+        background: #CE0033;
+    }
+    .reference-footer{
+        color: white;
+    }
+    .joindre-footer{
+        border: solid 0px;
+        color: white;
+    }
+    .contact{
+        font-size: 18px;
+    }
+    .label-footer{
+        width: 300px;
+    } 
 }
